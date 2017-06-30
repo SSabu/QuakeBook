@@ -6,7 +6,7 @@ const router  = express.Router();
 
 
 /**
-* @api {get} /earthquakes/              Get earthquake information based on specific USGS ID from USGS API
+* @api {get} /earthquakes/:id              Get earthquake information based on specific USGS ID from USGS API
 * @apiVersion 1.0.0
 * @apiName GetEarthquakeId
 * @apiGroup Earthquakes
@@ -61,7 +61,7 @@ router.get('/:id', (req, res) => {
 })
 
 /**
-* @api {get} /earthquakes/                   Get Earthquake information from USGS API based on a range of optional parameters you can pass in.
+* @api {get} /earthquakes                   Get Earthquake information from USGS API based on a range of optional parameters you can pass in.
 * @apiVersion 1.0.0
 * @apiName GetEarthquakesByParameters
 * @apiGroup Earthquakes
@@ -106,7 +106,7 @@ router.get('/:id', (req, res) => {
 *      HTTP/1.1 404 Not Found
 *
 *       Not Found
-* 
+*
 */
 
 router.get('/', (req, res) => {

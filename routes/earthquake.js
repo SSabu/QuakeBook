@@ -119,7 +119,8 @@ router.get('/:id', (req, res) => {
 });
 
 /**
-* @api {put} /profile                    Add new earthquake event to the database
+* @api {put}  /earthquake                    Add new earthquake event to the database
+
 * @apiName AddEarthquake
 * @apiGroup Earthquake
 *
