@@ -38,3 +38,8 @@ This route is where any user (logged in or not) may query the USGS api for any c
 ### Local Environment
 
 As a prerequisite, set up the .ENV file with a JWT_KEY so a token can be created to enable user authentication.
+
+### Authors
+
+* Dave Gallup
+* Sandeep Sabu
